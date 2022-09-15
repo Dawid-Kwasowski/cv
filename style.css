@@ -1,7 +1,8 @@
 body {
     font-family: Arial;
     background-color: aliceblue;
-    padding: 40px 0;
+    /* padding: 40px 0; */
+    min-height: 100vh;
 }
 
 h1 {
@@ -62,8 +63,21 @@ p {
 }
 
 .hobbies {
+    padding: 10px 60px 20px 60px;
+}
+
+.hobbies-list-item {
+    display: flex;
+    align-items: center;
+}
+
+.hobbies-list {
     list-style: none;
-    padding: 0;
-    width: 5px;
-    height: 5px;
+}
+
+
+.hobbies-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
 }
